@@ -1,19 +1,34 @@
 # Sitemap – ComInnoCenter Premium Website
 
-**อัปเดต**: 13 สิงหาคม 2569  
-**สถานะ**: Draft v1 – พร้อมสำหรับการออกแบบ Wireframe
+**อัปเดต**: 13 สิงหาคม 2569 (ฉบับปรับปรุงตาม Feedback)  
+**สถานะ**: Approved Structure
 
 ---
 
-## โครงสร้างหลัก (Primary Navigation)
+## Primary Navigation (เมนูหลัก)
+
+```
+Home
+About
+Expertise
+Impact
+Collaborate
+```
+
+> Knowledge จะอยู่ในระดับรอง (Footer หรือภายใต้ Impact/About) สำหรับ MVP
+
+---
+
+## โครงสร้างฉบับสมบูรณ์
 
 ```
 Home
 ├── About
-│   ├── The Center (Mission / Vision / Objectives)
-│   ├── Leadership
-│   └── Our Team
-├── Expertise (Services)
+│   ├── The Center          → Mission / Vision / Objectives / Story
+│   ├── Leadership          → Head + Deputy Heads
+│   └── Our Team            → Full team grid
+├── Expertise
+│   ├── Overview
 │   ├── Book & Printing
 │   ├── Motion Effect & AR
 │   ├── Video Production
@@ -23,173 +38,93 @@ Home
 │   ├── Campaign Management
 │   ├── Seminar
 │   └── Marketing Event
-├── Impact (Our Works)
-│   ├── All Projects
-│   ├── Filter by Service
-│   ├── Filter by SDG
+├── Impact
+│   ├── All Projects (with filters: Service / SDG / Year)
 │   └── Individual Case Study pages
-├── Knowledge
+├── Knowledge               ← Phase 2
 │   ├── Publications & E-Books
 │   ├── Insights / Articles
 │   └── Media Coverage
 └── Collaborate
     ├── Partnership Opportunities
-    ├── Request Training / Seminar
-    └── Contact Us
+    ├── Request Training / Seminar / Research
+    └── Contact Form + Details
 ```
 
 ---
 
-## รายละเอียดแต่ละหน้า
+## รายละเอียดสำคัญของแต่ละส่วน
 
-### 1. Home (`/`)
-**วัตถุประสงค์**: สร้างความประทับใจแรก + สื่อสาร Impact + ชวนให้ Collaborate
-
-**Sections แนะนำ**:
-- Hero (Cinematic + Tagline “Communication Innovation for a Better Life”)
-- The Center in brief + Key numbers / Impact highlights
-- Selected Services (3–4 บริการเด่น)
-- Featured Case Studies / Impact Stories
+### 1. Home
+- Hero ที่ทรงพลัง (Tagline + Visual ที่สื่อ Impact)
+- Brief about the Center + Key impact numbers
+- Selected Expertise highlights
+- Featured Impact / Case Studies (สำคัญมาก)
 - Leadership highlight
-- Partners / Clients logo wall
-- Call-to-Action หลัก (Collaborate with us)
+- Partners logo wall
+- Primary CTA → Collaborate
 
-**Priority**: MVP (สูงสุด)
+### 2. About
+- **The Center**: เรื่องราว + วัตถุประสงค์ 3 ข้อ
+- **Leadership**: โปรไฟล์เชิงลึกของ Smith Boonchutima + Deputies
+- **Our Team**: Grid ทีมทั้งหมด
 
----
+### 3. Expertise
+- หน้า Overview ที่อธิบายแนวทางของศูนย์
+- หน้าย่อย 9 บริการ (แต่ละหน้ามี Process + Related Impact)
 
-### 2. About (`/about`)
+### 4. Impact (ยกขึ้นเป็นเมนูหลัก)
+- หัวใจของการสื่อสาร “Quality of Life & Sustainability”
+- Case Studies ที่เล่าเรื่อง Challenge → Approach → Outcome → Impact
+- เชื่อมโยงกับ SDG Goals ที่เลือกไว้
 
-#### 2.1 The Center (`/about`)
-- Mission, Vision, 3 Objectives
-- Story of the Center
-- How we work (Research → Innovation → Impact)
-
-#### 2.2 Leadership (`/about/leadership`)
-- Profile ของ Head และ Deputy Heads (Smith Boonchutima, Teerada, Pavel)
-- Education + Selected works
-
-#### 2.3 Our Team (`/about/team`)
-- Grid ของทีมทั้งหมด (Faculty + Researchers + Assistants + Designer)
-- Filter ได้ตามบทบาท (ถ้าต้องการ)
-
-**Priority**: MVP
+### 5. Collaborate
+- จุดแปลงหลักของเว็บไซต์
+- ฟอร์มที่ใช้งานง่าย + ช่องทางติดต่อที่ชัดเจน
 
 ---
 
-### 3. Expertise / Services (`/expertise`)
+## MVP Scope (แนะนำสำหรับ Launch รอบแรก)
 
-หน้า Overview + หน้าย่อยของแต่ละบริการ (9 หน้า)
-
-| Service | Suggested URL |
-|---------|---------------|
-| Book & Printing | `/expertise/book-printing` |
-| Motion Effect & AR | `/expertise/ar-motion` |
-| Video Production | `/expertise/video-production` |
-| Training | `/expertise/training` |
-| Research & Evaluation | `/expertise/research-evaluation` |
-| Communication Design | `/expertise/communication-design` |
-| Campaign Management | `/expertise/campaign` |
-| Seminar | `/expertise/seminar` |
-| Marketing Event | `/expertise/marketing-event` |
-
-**โครงสร้างหน้า Service แต่ละหน้า**:
-- Hero + Short description
-- What we deliver
-- Our Process
-- Related Case Studies
-- CTA: Inquire about this service
-
-**Priority**: MVP (Overview + 4–5 บริการหลักก่อนได้)
-
----
-
-### 4. Impact / Our Works (`/impact`)
-
-- หน้า Listing พร้อม Filter (Service / SDG / Year)
-- หน้า Case Study แต่ละชิ้น (`/impact/[slug]`)
-
-**โครงสร้าง Case Study แนะนำ**:
-- Challenge
-- Approach / Our Role
-- Outcome & Impact
-- Related SDGs
-- Gallery / Video
-- Testimonial (ถ้ามี)
-
-**Priority**: MVP (Listing + 5–8 Case Studies แรก)
-
----
-
-### 5. Knowledge (`/knowledge`)
-
-- Publications & E-Books
-- Insights / Articles / Blog
-- Media Coverage / News
-
-**Priority**: Phase 2 (สามารถเริ่มด้วยหน้าเดียวรวมก่อน)
-
----
-
-### 6. Collaborate (`/collaborate`)
-
-- Partnership Opportunities
-- Request for Training / Seminar / Research
-- Contact Form + ข้อมูลติดต่อ
-- Map / Location (ถ้าต้องการ)
-
-**Priority**: MVP
-
----
-
-## Secondary / Utility Pages
-
-- Privacy Policy
-- Terms of Use (ถ้าจำเป็น)
-- 404 Page
-- Language Switcher (TH / EN)
-
----
-
-## แนะนำ URL Structure (Clean & SEO-friendly)
-
-```
-/                          → Home
-/about                     → The Center
-/about/leadership          → Leadership
-/about/team                → Team
-/expertise                 → Services Overview
-/expertise/[service]       → Individual Service
-/impact                    → All Works
-/impact/[project-slug]     → Case Study
-/knowledge                 → Knowledge Hub
-/collaborate               → Collaborate / Contact
-```
-
----
-
-## MVP Scope แนะนำ (Phase 1 Launch)
-
+**ต้องมี**:
 1. Home
 2. About (The Center + Leadership + Team)
-3. Expertise Overview + 5 บริการหลัก
-4. Impact Listing + 6–8 Case Studies
-5. Collaborate / Contact
+3. Expertise Overview + บริการหลัก 5 รายการ
+4. Impact Listing + Case Studies อย่างน้อย 6–8 ชิ้น
+5. Collaborate
 
-**Phase 2** เพิ่ม:
-- บริการที่เหลือ
-- Knowledge section เต็มรูปแบบ
-- Filter ขั้นสูง
-- ระบบค้นหา
-
----
-
-## หมายเหตุสำหรับ Wireframe
-
-- Navigation ควรคงที่และชัดเจน
-- Mobile: ใช้ Hamburger + ลำดับที่สำคัญก่อน
-- ทุกหน้าควรมี CTA ที่ชัดเจนไปยัง Collaborate หรือ Service ที่เกี่ยวข้อง
+**Phase 2**:
+- บริการที่เหลือครบ 9 รายการ
+- Knowledge section
+- Advanced filters + Search
 
 ---
 
-**ไฟล์นี้พร้อมสำหรับการนำไปออกแบบ Low-fidelity Wireframes ต่อได้เลย**
+## URL Structure ที่แนะนำ
+
+```
+/                         → Home
+/about                    → The Center
+/about/leadership         → Leadership
+/about/team               → Team
+/expertise                → Expertise Overview
+/expertise/[service]      → Individual service
+/impact                   → All Impact / Works
+/impact/[slug]            → Case Study
+/collaborate              → Collaborate / Contact
+```
+
+---
+
+## สรุปการปรับปรุงจากฉบับก่อนหน้า
+
+| รายการ | เดิม | ปรับปรุงใหม่ |
+|--------|------|-------------|
+| ชื่อหมวดบริการ | Services / Expertise (Services) | **Expertise** |
+| ตำแหน่ง Impact | อยู่ในระดับรอง | **ยกขึ้นเป็นเมนูหลัก** |
+| Knowledge | อยู่ใน Primary | ย้ายไป Phase 2 / ระดับรอง |
+| น้ำหนักโดยรวม | ปลอดภัย | เน้น Impact และความเป็น Center of Excellence มากขึ้น |
+
+---
+
+**โครงสร้างนี้พร้อมสำหรับการออกแบบ Low-fidelity Wireframes ต่อได้เลย**
