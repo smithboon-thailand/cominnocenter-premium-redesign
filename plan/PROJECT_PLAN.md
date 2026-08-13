@@ -7,88 +7,51 @@
 
 ---
 
-## ภาพรวมเฟสงาน (High-Level Phases)
+## ภาพรวมเฟสงาน
 
-| เฟส | ชื่อเฟส | ระยะเวลาโดยประมาณ | สถานะ |
-|-----|---------|------------------|--------|
-| 0 | Discovery & Archive | เสร็จแล้ว | ✅ Done |
-| 1 | Strategy & Design Foundation | 1–2 สัปดาห์ | 🔄 In Progress |
-| 2 | Information Architecture & Content Strategy | 1 สัปดาห์ | Pending |
-| 3 | Visual Design (UI/UX + Design System) | 2–3 สัปดาห์ | Pending |
-| 4 | Development (Frontend + CMS) | 3–5 สัปดาห์ | Pending |
-| 5 | Content Population & QA | 1–2 สัปดาห์ | Pending |
-| 6 | Launch, Training & Handover | 1 สัปดาห์ | Pending |
-
----
-
-## รายละเอียดแผนงานทีละขั้น
-
-### เฟส 0: Discovery & Content Archive (เสร็จสิ้นแล้ว)
-**วัตถุประสงค์**: เก็บข้อมูลและสินทรัพย์จากเว็บปัจจุบันให้ครบถ้วน
-
-**สิ่งที่ทำไปแล้ว**:
-- [x] สร้าง GitHub Repository
-- [x] เก็บข้อความ + รูปภาพ + ทีม + บริการ
-- [x] เขียน Design Guidelines
-- [x] สร้าง JSON Database
+| เฟส | ชื่อเฟส | สถานะ |
+|-----|---------|--------|
+| 0 | Discovery & Archive | ✅ Done |
+| 1 | Strategy & Design Foundation | 🔄 In Progress |
+| 2 | Information Architecture & Content Strategy | 🔄 In Progress |
+| 3 | Visual Design | Pending |
+| 4 | Development | Pending |
+| 5 | Content & QA | Pending |
+| 6 | Launch & Handover | Pending |
 
 ---
+
+## ความคืบหน้าเฟส 1 + 2
 
 ### เฟส 1: Strategy & Design Foundation
-**วัตถุประสงค์**: กำหนดทิศทางแบรนด์และระบบออกแบบให้ชัดเจน
+1. [x] ยืนยัน Hex Code สีชมพูจุฬาฯ + สีน้ำเงินคณะ
+2. [x] คัดเลือก SDG Goals (3, 4, 17, 12, 11)
+3. [x] สร้าง Color System + Moodboard
+4. [ ] Brand Personality & Tone of Voice (ยังไม่ทำ)
+5. [ ] Typography ขั้นสุดท้าย + Logo usage
 
-**งานที่ต้องทำ**:
-1. [x] ยืนยัน Hex Code สีชมพูจุฬาฯ และสีน้ำเงินคณะ
-   - CU Pink: **#DE5C8E**
-   - Faculty Blue: **#002D73**
-2. [x] คัดเลือก SDG Goals หลัก (SDG 3, 4, 17, 12, 11)
-3. [x] **สร้าง Color System + Moodboard ฉบับละเอียด** ← เสร็จแล้ว
-   - ไฟล์: [design/COLOR_SYSTEM_AND_MOODBOARD.md](../design/COLOR_SYSTEM_AND_MOODBOARD.md)
-4. กำหนด Brand Personality และ Tone of Voice ฉบับละเอียด
-5. เลือก Typography ขั้นสุดท้าย
-6. กำหนดหลักการใช้โลโก้
-7. สร้าง Moodboard ภาพจริง (ถ้าต้องการ)
-
-**Deliverables**:
-- Color System + Moodboard (เสร็จแล้ว)
-- Brand Guidelines ฉบับย่อ
+### เฟส 2: Information Architecture
+1. [x] **ออกแบบ Sitemap ฉบับสมบูรณ์** ← เสร็จแล้ว
+   - ไฟล์: [plan/SITEMAP.md](./SITEMAP.md)
+2. [ ] User Journey
+3. [ ] Content Outline
+4. [ ] Low-fidelity Wireframes
 
 ---
 
-### เฟส 2: Information Architecture & Content Strategy
-**วัตถุประสงค์**: ออกแบบโครงสร้างเว็บและกลยุทธ์เนื้อหา
+## ลำดับความสำคัญถัดไป
 
-**งานที่ต้องทำ**:
-1. ออกแบบ Sitemap ฉบับสมบูรณ์
-2. กำหนด User Journey หลัก
-3. เขียน Content Outline
-4. กำหนดโครงสร้าง Case Study
-5. วางแผนเนื้อหาสองภาษา
-6. กำหนด Priority ของหน้า
-
-**Deliverables**:
-- Sitemap
-- Content Outline
-- Low-fidelity Wireframes
+1. ✅ Hex Code
+2. ✅ SDG Goals
+3. ✅ Color System + Moodboard
+4. ✅ Sitemap
+5. **เริ่ม Low-fidelity Wireframes** (ข้อ 5)
 
 ---
 
-### เฟส 3–6
-(ยังไม่เริ่ม)
+## ไฟล์สำคัญ
 
----
-
-## ลำดับความสำคัญถัดไป (Immediate Next Steps)
-
-1. ✅ ยืนยัน Hex Code
-2. ✅ คัดเลือก SDG Goals
-3. ✅ สร้าง Color System + Moodboard
-4. **ออกแบบ Sitemap** ฉบับสมบูรณ์
-5. **เริ่ม Low-fidelity Wireframes**
-
----
-
-**ไฟล์สำคัญล่าสุด**:
+- [Sitemap](./SITEMAP.md)
 - [Color System & Moodboard](../design/COLOR_SYSTEM_AND_MOODBOARD.md)
 - [SDG Selection](../design/SDG_SELECTION.md)
 - [Premium Design Guidelines](../design/PREMIUM_DESIGN_GUIDELINES.md)
