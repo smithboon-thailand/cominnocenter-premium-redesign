@@ -9,33 +9,31 @@
 
 | รายการ | สถานะ |
 |--------|--------|
-| สีชมพูจุฬาฯ + น้ำเงินคณะ (Hex) | ✅ |
-| SDG Goals Selection | ✅ |
+| สีชมพู + น้ำเงิน (Hex) | ✅ |
+| SDG Goals | ✅ |
 | Color System + Moodboard | ✅ |
-| Sitemap (ฉบับอนุมัติ) | ✅ |
-| Low-Fidelity Wireframes (Core pages) | ✅ เสร็จ |
+| Sitemap | ✅ |
+| Low-Fidelity Wireframes | ✅ |
+| High-Fidelity Design Direction | 🔄 เริ่มแล้ว |
 
 ---
 
-## Wireframes ที่เสร็จแล้ว
+## ไฟล์สำคัญล่าสุด
 
+**High-Fidelity**
+- [Home Design Direction](../design/high-fidelity/01-HOME-DIRECTION.md)
+- [UI Components & Tokens](../design/high-fidelity/UI-COMPONENTS.md)
+
+**Wireframes**
 - [Home](../design/wireframes/01-HOME.md)
 - [About](../design/wireframes/02-ABOUT.md)
 - [Expertise & Impact](../design/wireframes/03-EXPERTISE-AND-IMPACT.md)
 - [Collaborate](../design/wireframes/04-COLLABORATE.md)
-- [สรุปรวม](../design/wireframes/README.md)
 
 ---
 
-## ขั้นตอนถัดไปที่แนะนำ
+## ขั้นตอนถัดไป
 
-1. **ตรวจทาน Wireframes** และให้ Feedback
-2. เริ่ม **High-Fidelity Design** ใน Figma
-3. หรือเพิ่ม Mobile Wireframes / Micro-interactions guidelines
-
----
-
-**โครงสร้าง Navigation ที่อนุมัติ**:
-```
-Home | About | Expertise | Impact | Collaborate
-```
+1. ตรวจทาน High-Fidelity Direction ของหน้า Home
+2. ขยาย High-Fidelity Direction ไปยังหน้าอื่นๆ
+3. หรือเริ่มสร้างใน Figma จริงโดยใช้เอกสารชุดนี้เป็นสเปก
