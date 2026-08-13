@@ -1,0 +1,111 @@
+{
+  "organization": {
+    "name_en": "Center of Excellence in Communication Innovation for the Development of Quality of Life and Sustainability",
+    "name_short": "ComInnoCenter",
+    "faculty": "Faculty of Communication Arts, Chulalongkorn University",
+    "tagline": "COMMUNICATION INNOVATION FOR A BETTER LIFE",
+    "website": "https://www.cominnocenter.com/",
+    "description": "A research center dedicated to creating knowledge and developing communication innovations that enhance quality of life and sustainability through research, tool development, education, and collaborative networks across government, private, and civil society sectors."
+  },
+  "objectives": [
+    "Developing communication innovation for the improvement of quality of life and sustainability through teaching, learning, and training management.",
+    "Coming together as a group or community to advocate for communication aimed at collectively developing the quality of life and sustainability within society.",
+    "Developing innovative tools and equipment to help society understand and perceive the guidelines for developing quality of life and sustainability."
+  ],
+  "services": [
+    {
+      "id": "book-printing",
+      "name": "Book & Printing",
+      "description": "Book and print materials production. Study, review academic documents, synthesize, and write original content. Design and produce books and printed materials."
+    },
+    {
+      "id": "ar-motion",
+      "name": "Motion Effect & AR",
+      "description": "Create AR (Augmented Reality). AR on books, AR on packaging, AR for marketing promotion, AR for education."
+    },
+    {
+      "id": "video",
+      "name": "Video Production",
+      "description": "Organization introduction video, Company introduction video, Work summary video, Educational/Instructional video, Research findings dissemination video."
+    },
+    {
+      "id": "training",
+      "name": "Training",
+      "description": "Assess needs, design curriculum, create manuals, manage training, evaluate training, assess training."
+    },
+    {
+      "id": "research-evaluation",
+      "name": "Research & Evaluation",
+      "description": "Create research frameworks, Establish evaluation frameworks, Design research projects, tools, Collect and Analyze research data, Evaluate project outcomes, Prepare evaluation reports."
+    },
+    {
+      "id": "communication-design",
+      "name": "Communication Design",
+      "description": "Create infographics, communicate through images, design posters, design printed materials, design posts for social media, create 3D maps."
+    },
+    {
+      "id": "campaign",
+      "name": "Campaign Manage",
+      "description": "Analyze the situation, Study target groups, Determine channels, Create core content, Craft key messages, Produce promotional materials, Design activities, Conduct campaigns, Summarize results."
+    },
+    {
+      "id": "seminar",
+      "name": "Seminar",
+      "description": "Set agendas, coordinate speakers, invite participants, arrange venues and prepare equipment, conduct discussions, synthesize information, prepare reports, summarize meetings."
+    },
+    {
+      "id": "marketing-event",
+      "name": "Marketing Event",
+      "description": "Event design, venue arrangement, coordinating speakers, inviting participants, arranging lighting and stage decoration, organizing launches, broadcasting news on TV and online, evaluating event outcomes."
+    }
+  ],
+  "leadership": [
+    {
+      "name": "Smith Boonchutima",
+      "title": "Head of Research Operations Unit",
+      "role": "Assoc. Prof. Dr.",
+      "education": [
+        "Ph.D. Sports Science, Chulalongkorn University, 2018",
+        "Transnational Communications & The Global Media, University of London",
+        "M.A. Mass Communication (Advertising), Chulalongkorn University, 2000",
+        "B.A. Communication Arts (Advertising) First-Class Honors, Chulalongkorn University, 2000"
+      ]
+    },
+    {
+      "name": "Teerada Chongkolrattanaporn",
+      "title": "Deputy Head of Research Operations Unit",
+      "education": [
+        "Ph.D. International Communication, Macquarie University",
+        "Ph.D. Communication Studies, Chulalongkorn University",
+        "M.A. Speech and Communication Studies, San Francisco State University",
+        "B.A. English Language, Chulalongkorn University"
+      ]
+    },
+    {
+      "name": "Pavel Slutskiy",
+      "title": "Deputy Head of Research Operations Unit",
+      "education": [
+        "Ph.D. Journalism (Political Science), Saint-Petersburg State University, 2008",
+        "MA/BA Public Relations, Saint-Petersburg State Electrotechnical University & Towson University"
+      ]
+    }
+  ],
+  "sample_works": [
+    "Chula Communication Arts Strengthens Academic Collaboration with Keio University and Bunkyo University",
+    "Leadership Training at Krungthai Bank",
+    "Chula Zero Waste Campaign",
+    "NBTC Encyclopedia",
+    "NIA 100 FACES",
+    "Creative Tourism Development Project in Nan Province",
+    "Drug Safety Awareness at FDA Summit",
+    "Crisis Communication Training",
+    "International Labour Organization Training",
+    "Seeds for CU Sustainability"
+  ],
+  "source_pages": [
+    "https://www.cominnocenter.com/",
+    "https://www.cominnocenter.com/about",
+    "https://www.cominnocenter.com/insights"
+  ],
+  "collected_at": "2026-08-13"
+}
