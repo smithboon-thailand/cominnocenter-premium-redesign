@@ -9,24 +9,33 @@
 
 | รายการ | สถานะ |
 |--------|--------|
-| สีชมพู + น้ำเงิน (Hex) | ✅ |
-| SDG Goals | ✅ |
+| สีชมพูจุฬาฯ + น้ำเงินคณะ (Hex) | ✅ |
+| SDG Goals Selection | ✅ |
 | Color System + Moodboard | ✅ |
 | Sitemap (ฉบับอนุมัติ) | ✅ |
-| Low-fidelity Wireframes | 🔄 กำลังทำ |
+| Low-Fidelity Wireframes (Core pages) | ✅ เสร็จ |
 
 ---
 
-## Wireframes ที่สร้างแล้ว
+## Wireframes ที่เสร็จแล้ว
 
-- [01-HOME.md](../design/wireframes/01-HOME.md)
-- [02-ABOUT.md](../design/wireframes/02-ABOUT.md)
-- [03-EXPERTISE-AND-IMPACT.md](../design/wireframes/03-EXPERTISE-AND-IMPACT.md)
+- [Home](../design/wireframes/01-HOME.md)
+- [About](../design/wireframes/02-ABOUT.md)
+- [Expertise & Impact](../design/wireframes/03-EXPERTISE-AND-IMPACT.md)
+- [Collaborate](../design/wireframes/04-COLLABORATE.md)
+- [สรุปรวม](../design/wireframes/README.md)
 
 ---
 
-## ขั้นตอนถัดไป
+## ขั้นตอนถัดไปที่แนะนำ
 
-1. ตรวจทานและปรับ Wireframes ตาม Feedback
-2. เริ่ม High-fidelity Design ใน Figma (ใช้ Color System ที่กำหนดไว้)
-3. หรือทำ Wireframe หน้า Collaborate เพิ่ม
+1. **ตรวจทาน Wireframes** และให้ Feedback
+2. เริ่ม **High-Fidelity Design** ใน Figma
+3. หรือเพิ่ม Mobile Wireframes / Micro-interactions guidelines
+
+---
+
+**โครงสร้าง Navigation ที่อนุมัติ**:
+```
+Home | About | Expertise | Impact | Collaborate
+```
