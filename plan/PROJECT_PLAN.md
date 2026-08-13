@@ -47,8 +47,9 @@
 1. [x] **ยืนยัน Hex Code สีชมพูของจุฬาฯ และสีน้ำเงินของคณะ** ← เสร็จแล้ว
    - CU Pink: **#DE5C8E** (Pantone P 73-14 C)
    - Faculty Blue: **#002D73** (Pantone 288 C)
-   - แหล่งที่มา: Official CU Corporate Identity Guidelines
-2. คัดเลือก SDG Goals ที่เกี่ยวข้องกับผลงานของศูนย์มากที่สุด (แนะนำ 4–6 เป้าหมายหลัก)
+2. [x] **คัดเลือก SDG Goals** ที่เกี่ยวข้องกับผลงานของศูนย์มากที่สุด ← เสร็จแล้ว
+   - Primary: **SDG 3, 4, 17, 12, 11**
+   - รายละเอียดเต็ม: [design/SDG_SELECTION.md](../design/SDG_SELECTION.md)
 3. กำหนด Brand Personality และ Tone of Voice ฉบับละเอียด
 4. สร้าง Color System ฉบับสมบูรณ์ (Primary, Secondary, Neutral, SDG Accents, Semantic)
 5. เลือก Typography (ฟอนต์ไทย + อังกฤษ ที่รองรับสองภาษาสวยและพรีเมียม)
@@ -177,8 +178,8 @@
 
 ## ลำดับความสำคัญถัดไป (Immediate Next Steps)
 
-1. ✅ **ยืนยัน Hex Code** สีชมพูจุฬาฯ และสีน้ำเงินคณะ (เสร็จแล้ว)
-2. **คัดเลือก SDG Goals** หลักที่เกี่ยวข้องกับงานของศูนย์
+1. ✅ ยืนยัน Hex Code สีชมพูจุฬาฯ และสีน้ำเงินคณะ
+2. ✅ คัดเลือก SDG Goals หลักที่เกี่ยวข้องกับงานของศูนย์
 3. **สร้าง Moodboard + Color System** ฉบับละเอียด
 4. **ออกแบบ Sitemap** ฉบับสมบูรณ์
 5. **เริ่ม Low-fidelity Wireframes**
