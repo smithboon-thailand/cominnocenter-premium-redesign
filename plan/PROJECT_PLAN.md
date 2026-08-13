@@ -1,5 +1,5 @@
 # แผนงานทั้งหมด (Project Plan)
-## การพัฒนาเว็บไซต์ ComInnoCenter แบบ Premium
+## ComInnoCenter Premium Website
 
 **อัปเดตล่าสุด**: 13 สิงหาคม 2569
 
@@ -9,36 +9,24 @@
 
 | รายการ | สถานะ |
 |--------|--------|
-| Hex Code สีชมพู + น้ำเงิน | ✅ |
-| SDG Goals Selection | ✅ |
+| สีชมพู + น้ำเงิน (Hex) | ✅ |
+| SDG Goals | ✅ |
 | Color System + Moodboard | ✅ |
-| Sitemap (ฉบับปรับปรุง) | ✅ Approved |
-| Low-fidelity Wireframes | ⏳ Next |
+| Sitemap (ฉบับอนุมัติ) | ✅ |
+| Low-fidelity Wireframes | 🔄 กำลังทำ |
 
 ---
 
-## Sitemap ฉบับอนุมัติ
+## Wireframes ที่สร้างแล้ว
 
-**Primary Navigation**:
-```
-Home | About | Expertise | Impact | Collaborate
-```
-
-- เปลี่ยนจาก “Services” → **Expertise**
-- ยก **Impact** ขึ้นเป็นเมนูหลัก
-- Knowledge อยู่ใน Phase 2
-
-รายละเอียดเต็ม: [plan/SITEMAP.md](./SITEMAP.md)
+- [01-HOME.md](../design/wireframes/01-HOME.md)
+- [02-ABOUT.md](../design/wireframes/02-ABOUT.md)
+- [03-EXPERTISE-AND-IMPACT.md](../design/wireframes/03-EXPERTISE-AND-IMPACT.md)
 
 ---
 
 ## ขั้นตอนถัดไป
 
-**ข้อ 5**: เริ่มออกแบบ Low-fidelity Wireframes
-
-ลำดับที่แนะนำ:
-1. Home
-2. About
-3. Expertise Overview
-4. Impact Listing + Case Study template
-5. Collaborate
+1. ตรวจทานและปรับ Wireframes ตาม Feedback
+2. เริ่ม High-fidelity Design ใน Figma (ใช้ Color System ที่กำหนดไว้)
+3. หรือทำ Wireframe หน้า Collaborate เพิ่ม
