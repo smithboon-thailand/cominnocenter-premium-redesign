@@ -11,14 +11,17 @@ This repository archives the current website content (text + image references) f
 - `/assets/` — Image URLs, logos, visual references from current site
 - `/design/` — Premium design guidelines, moodboard notes, UX recommendations
 - `/data/` — JSON database of all collected content for easy import into new CMS/website
+- `/plan/` — **Project Plan แบบละเอียดเป็นขั้นๆ**
 
 ## Current Brand Snapshot
 - **Tagline**: COMMUNICATION INNOVATION FOR A BETTER LIFE
+- **สีหลัก**: ชมพู (จุฬาฯ) + น้ำเงิน (คณะ) + สี SDG (Sustainability)
 - **Focus**: Research center creating knowledge & communication innovations that enhance quality of life and sustainability.
 - **Services**: Book & Printing, Motion Effect & AR, Video Production, Training, Research & Evaluation, Communication Design, Campaign Management, Seminar, Marketing Event.
 
-## Next Steps for Premium Website
-See `/design/PREMIUM_DESIGN_GUIDELINES.md` for full direction.
+## เอกสารสำคัญ
+- [แผนงานทั้งหมด (Project Plan)](./plan/PROJECT_PLAN.md) ← **เริ่มที่นี่**
+- [แนวทางการออกแบบ Premium](./design/PREMIUM_DESIGN_GUIDELINES.md)
 
 Created for preparation of the new premium website.  
 Owner context: Assoc. Prof. Smith Boonchutima, Ph.D.
