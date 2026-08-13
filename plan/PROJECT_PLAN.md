@@ -12,7 +12,7 @@
 | เฟส | ชื่อเฟส | ระยะเวลาโดยประมาณ | สถานะ |
 |-----|---------|------------------|--------|
 | 0 | Discovery & Archive | เสร็จแล้ว | ✅ Done |
-| 1 | Strategy & Design Foundation | 1–2 สัปดาห์ | ⏳ Next |
+| 1 | Strategy & Design Foundation | 1–2 สัปดาห์ | 🔄 In Progress |
 | 2 | Information Architecture & Content Strategy | 1 สัปดาห์ | Pending |
 | 3 | Visual Design (UI/UX + Design System) | 2–3 สัปดาห์ | Pending |
 | 4 | Development (Frontend + CMS) | 3–5 สัปดาห์ | Pending |
@@ -44,7 +44,10 @@
 **วัตถุประสงค์**: กำหนดทิศทางแบรนด์และระบบออกแบบให้ชัดเจน
 
 **งานที่ต้องทำ**:
-1. ยืนยัน Hex Code สีชมพูของจุฬาฯ และสีน้ำเงินของคณะ (ขอจากทางศูนย์)
+1. [x] **ยืนยัน Hex Code สีชมพูของจุฬาฯ และสีน้ำเงินของคณะ** ← เสร็จแล้ว
+   - CU Pink: **#DE5C8E** (Pantone P 73-14 C)
+   - Faculty Blue: **#002D73** (Pantone 288 C)
+   - แหล่งที่มา: Official CU Corporate Identity Guidelines
 2. คัดเลือก SDG Goals ที่เกี่ยวข้องกับผลงานของศูนย์มากที่สุด (แนะนำ 4–6 เป้าหมายหลัก)
 3. กำหนด Brand Personality และ Tone of Voice ฉบับละเอียด
 4. สร้าง Color System ฉบับสมบูรณ์ (Primary, Secondary, Neutral, SDG Accents, Semantic)
@@ -174,7 +177,7 @@
 
 ## ลำดับความสำคัญถัดไป (Immediate Next Steps)
 
-1. **ยืนยัน Hex Code** สีชมพูจุฬาฯ และสีน้ำเงินคณะ
+1. ✅ **ยืนยัน Hex Code** สีชมพูจุฬาฯ และสีน้ำเงินคณะ (เสร็จแล้ว)
 2. **คัดเลือก SDG Goals** หลักที่เกี่ยวข้องกับงานของศูนย์
 3. **สร้าง Moodboard + Color System** ฉบับละเอียด
 4. **ออกแบบ Sitemap** ฉบับสมบูรณ์
